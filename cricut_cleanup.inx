@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>CriCut Cleanup</_name>
+  <id>com.tophamsoftware.inkscape.cleanup</id>
+  <dependency type="executable" location="extensions">cricut_cleanup.py</dependency>
+  <dependency type="executable" location="extensions">inkex.py</dependency>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+       <submenu _name="CriCut"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">cricut_cleanup.py</command>
+  </script>
+</inkscape-extension>
+
